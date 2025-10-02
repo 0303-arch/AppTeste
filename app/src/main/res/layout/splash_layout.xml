@@ -24,13 +24,18 @@
         android:text="  Paixão sem limites"
         android:textSize="16sp"
         android:fontFamily="@font/fontracing"
+        android:textStyle="normal"
         />
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:indeterminate="true"
+        app:trackColor="@color/black"
+        app:indicatorColor="@color/white"
+        android:progress="@integer/material_motion_duration_medium_1"/>
 
 
 </LinearLayout>
