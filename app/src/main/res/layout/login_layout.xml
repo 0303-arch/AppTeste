@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/senna"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -13,6 +14,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
         android:src="@drawable/f1logo" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -33,15 +35,17 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:padding="15dp"
         android:hint="Insira sua Senha"
         app:endIconMode="clear_text"
-        app:startIconDrawable="@drawable/baseline_lock">
+        app:startIconDrawable="@drawable/baseline_lock"
+
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
 
