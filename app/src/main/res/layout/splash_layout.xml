@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/f1logo"
+        android:src="@drawable/f1"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop"/>
 
